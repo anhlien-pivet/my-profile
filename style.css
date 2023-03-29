@@ -1,0 +1,147 @@
+/* Colors and Fonts */
+
+body { 
+	background-color: white; 
+	font-family: font-family: 'Barlow Condensed', sans-serif;
+	text-align: justify;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1,5;
+	color: 4D4D4D;
+	margin: 40px auto;
+}
+
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2017/06/20/17/15/wall-2423815_1280.jpg");
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 37px;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: 4D4D4D;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 23px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: B46060;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(149, 0, 36);
+	transition: color 0,3s ease; 
+}
+
+a:hover {
+	color: FF5B00;
+}
+
+li strong {
+	color: 7C0A02;
+	font-family: font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Custom design wht */
+
+.img-circle {
+	border-radius: 20px;
+}
+
+.box-shadow {
+	box-shadow: 8px 8px 5px rgba(30, 30, 30, 0.5);;
+}
+
+.img-size {
+	height: 250px;
+	width: 250px;
+	margin: 10px;
+}
+
+#images {
+	text-align: center;
+}
+
+#leader {
+	background-color: rgba(300, 300, 300, 0.0);
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin: 30px auto;
+	border-radius: 15px;
+	box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.2);
+	width: 900px;
+}
+
+.btn-red {
+	background-color:rgb(149, 0, 36); 
+	color: white;
+	line-height: 5;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-red:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgba(149, 0, 36, 1)
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+	background-color: white;
+}
+
+
+
